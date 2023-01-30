@@ -1,0 +1,180 @@
+.body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(83, 186, 107);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    /* color: aqua; */
+}
+
+.navbar{
+    /* when i am doing position fixed then header (navbar) shift towards left */
+    /* position: fixed; */
+    color: #040461;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e6d5d5;
+    font-size: 20px;
+    cursor: pointer;
+    /* position: fixed; */
+}
+
+/* this hover effect is not working */
+
+.navbar:nt-child(1):hover{
+    color: #4dbd15;
+}
+.navbar:nt-child(2):hover{
+    color: #3111be;
+}
+
+.navbar:nt-child(3):hover{
+    color: #e26511;
+}
+.navbar:nt-child(4):hover{
+    color: #f0e511;
+}
+.intro{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100vw; */
+    padding-top: 10px;
+    /* width: 100vw; */
+}
+.left-container{
+    width: 50vw;
+}
+.right-container{
+    padding-right: 30px;
+    width: 50vw;
+}
+
+.image{
+    width: 25vw;
+    height: 50vh;
+    margin: auto;
+    padding-left: 15vw;
+    padding-top: 15vh;  
+}
+
+.achievements{
+    display: flex;
+    flex-direction: column;
+}
+
+.coding{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    margin: auto;
+    width: 45%;
+    padding-left: 5px;
+    font-size: 30px;
+}
+.coding-profile{
+    width: 45%;
+    font-size: 42px;
+    color: purple;
+}
+
+.profileImg{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.GFG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imageBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 21px
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.btn{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: purple;
+    color:white;
+}
+.profilePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coding-profile:nth-child(1){
+    padding-left: 50px;
+    margin: auto;
+}
+
+
+/* css for the project section */
+.title{
+    padding: 40px;
+}
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectHeader{
+    margin: auto;
+}
+.socialMediaProfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.projectDescription{
+    width: 15%;
+    margin: auto
+}
+.linksAndImages{
+    margin: auto;
+}
+
+.fotterContent{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+
